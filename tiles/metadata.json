@@ -1,0 +1,14 @@
+{
+"name": "tiles",
+"description": "tiles",
+"version": "2",
+"minzoom": "0",
+"maxzoom": "14",
+"center": "93.900146,20.293113,14",
+"bounds": "92.265328,17.446825,94.889991,21.358213",
+"type": "overlay",
+"format": "pbf",
+"generator": "tippecanoe v1.36.0",
+"generator_options": "tippecanoe -z14 --force -e tiles --no-tile-compression rivers.geojson",
+"json": "{\"vector_layers\": [ { \"id\": \"rivers\", \"description\": \"\", \"minzoom\": 0, \"maxzoom\": 14, \"fields\": {} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"rivers\",\"count\": 81,\"geometry\": \"LineString\",\"attributeCount\": 0,\"attributes\": []}]}}"
+}
